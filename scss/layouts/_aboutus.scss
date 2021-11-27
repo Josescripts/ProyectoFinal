@@ -1,0 +1,61 @@
+.sectionab{
+    width: 100%;
+    min-height: 100vh;
+
+    .conteinerab{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 100px;
+
+        .content-sectionab{
+            float: left;
+            width: 55%;
+
+            .title{
+                text-transform: uppercase;
+                font-size: 28px;
+            }
+            .contentab{
+                h3{
+                    margin-top: 20px;
+                    color: brown;
+                    font-size: 21px;
+                }
+                p{
+                    margin-top: 10px;
+                    font-family: sans-serif;
+                    font-size: 18px;
+                    line-height: 1.5;
+                }
+                .button-readm{
+                    margin-top: 30px;
+
+                    a{
+                        background-color: #3d3d3d;
+                        padding: 12px 40px;
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 25px;
+                        letter-spacing: 1.5px;
+                    }
+
+                    a:hover{
+                        background-color: #a52a2a;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .image-sectionab{
+            float: right;
+            width: 40%;
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

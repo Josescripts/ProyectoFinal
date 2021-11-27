@@ -1,0 +1,43 @@
+/*pag categorias*/
+.cont-categorias{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    grid-column: 2/6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+
+    ul{
+        list-style: none;
+
+        h4{
+            font-size: 26px;
+        }
+
+        h4:hover{
+            font-size: 27px;
+            font-weight: bold;
+        }
+        
+        
+        li{
+            a{
+                color: black;
+                text-decoration: none;
+                font-size: 22px;
+                padding-left: 40px;
+            }
+
+            a:hover{
+                @extend a;
+                font-weight: 500;
+            }
+        }       
+    }
+}
+/*pag categorias*/

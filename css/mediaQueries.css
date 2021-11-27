@@ -1,0 +1,217 @@
+@media all and (max-width: 950px){
+    .banner p{
+        font-size: 10px;
+    }
+
+    .header{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .header .logo{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .header .busqueda{
+        grid-column: 3/10;
+    }
+    .header .title{
+        display: none;
+    }
+    .header .usuario{
+        grid-column: 11/12;
+    }
+    .header .usuario a{
+        display:none
+    }
+    .header .carrito{
+        grid-column: 13/14;
+    }
+    .header .carrito a{
+        display:none
+    }
+    .nav{
+       position: relative;
+    }
+    .nav ul li a{
+        font-size: 12px;
+        padding: 5px;
+    }
+    footer{
+        padding: 40px;
+    }
+    footer .footer-section{
+        flex-direction: column;
+    }
+    footer .footer-section{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .footer-section .foo-sec-aboutus, .foo-sec-quicklinks, .contact{
+        width: 100%;
+    }
+    .copytxt{
+        padding: 8px 40px;
+    }
+
+
+    /*outlet section*/
+
+    .sale{
+        margin-top: 10px;
+    }
+    .col-1{
+        flex-basis: 40%;
+        position: relative;
+        margin-left: 40px;
+        margin-top: 10px;
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(2, .50fr);
+    }
+    .col-1 h2{
+        font-size: 34px;
+        color: #181818;
+        text-align: left;
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    .col-1 h3{
+        font-size: 24px;
+        margin: 5px 0 5px;
+        background: black;
+        -webkit-background-clip: text;
+        grid-column: 1/8;
+        grid-row: 2;
+        padding-top: 25px;
+    }
+    .col-1 p{
+        z-index: -2;
+        font-size: 16px;
+        color: #b7b7b7;
+        font-weight: 100;
+        grid-column: 1/8;
+        grid-row: 2;
+    }
+    .col-1 h4{
+        grid-column: 6/7;
+        grid-row: 1;
+        padding-top: 50px;
+    }
+    .but-butsale{
+        grid-column: 8;
+        grid-row: 1;
+    }
+    .salebarimg{
+        padding-left: 40px;
+    }
+    .color-box{
+        width: 100%;
+    }
+
+    .sidebar{
+       font-size: 12px;
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .sidebar h3{
+        font-size: 16px;
+    }
+
+    .centralcont{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-gap: 1rem;
+    }
+    .centralcont .container1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .centralcont .container2{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .centralcont .container3{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .centralcont .container4{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .centralcont .container5{
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .centralcont .container6{
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .centralcont .container7{
+        grid-column: 1;
+        grid-row: 7;
+    }
+    .centralcont .container8{
+        grid-column: 1;
+        grid-row: 8;
+    }
+    .centralcont .container9{
+        grid-column: 1;
+        grid-row: 9;
+    }
+
+    /*fin outlet*/
+
+    /*contactos*/
+    form{
+        width: 360px;
+    }
+    /*contactos*/
+
+    /*faqs*/
+    #navfa{
+        padding: 0 19px 0 18px;
+    }
+    /*faqs*/
+
+    /*about us*/
+    .containerab{
+        width: 80%;
+        display: block;
+        margin:auto;
+        padding-top: 50px;
+    }
+    .content-sectionab{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .contentab{
+        width: 140%;
+    }
+    .image-sectionab{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    /*about us*/
+
+    /*categorias*/
+    
+    /*categorias*/
+
+
+
+}
+
+@media all and (max-width: 1300px){
+    .nav{
+        position: relative;
+    }
+     .nav ul li a{
+         padding: 5px;
+    }
+}
